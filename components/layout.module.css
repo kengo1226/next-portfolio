@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 65px;
+}
+
+.header ul {
+    display: flex;
+}
+
+.header ul li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.header ul li:last-of-type {
+    margin-right: 0;
+}
