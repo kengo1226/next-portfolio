@@ -17,6 +17,28 @@ export default function Home() {
           <button><a href="#">Contact Me</a></button>
         </div>
       </div>
+
+      <div>
+        <div className={styles.aboutContainer}>
+          <div className={styles.aboutMe}>
+            <p>Currently I'm working as a front-end developer in Tokyo.Currently I'm working as a front-end developer in Tokyo.Currently I'm working as a front-end developer in Tokyo.</p>
+          </div>
+          <div className={styles.aboutSkill}>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Next.js</li>
+              <li>Wordpress</li>
+              <li>GIT</li>
+              <li>Adobe XD</li>
+              <li>Figma</li>
+              <li>Photoshop</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </Layout>
   )
 }
